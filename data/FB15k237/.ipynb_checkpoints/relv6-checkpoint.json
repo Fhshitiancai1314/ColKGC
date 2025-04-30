@@ -1,0 +1,1661 @@
+[
+    {
+        "relation": "form of government country location ",
+        "ori_relation": "location country form_of_government",
+        "rel_inverse": "form_of_government country location",
+        "rel_desc": "The type of government that is established in a particular country",
+        "inver_rel_desc": "The country that practices a specific form of governmen"
+    },
+    {
+        "relation": "actor regular tv appearance regular cast tv program tv ",
+        "ori_relation": "tv tv_program regular_cast. tv regular_tv_appearance actor",
+        "rel_inverse": "actor regular_tv_appearance tv regular_cast. tv_program tv",
+        "rel_desc": "The actor who was a regular cast member in a particular TV program",
+        "inver_rel_desc": "The TV program in which a specific actor was a regular cast member."
+    },
+    {
+        "relation": "titles netflix genre media common ",
+        "ori_relation": "media_common netflix_genre titles",
+        "rel_inverse": "titles netflix_genre media_common",
+        "rel_desc": "The film titles which using this common media netflix genre.",
+        "inver_rel_desc": "What common media netflix genre does this film titles belong to"
+    },
+    {
+        "relation": "award honor awards won award winner award ",
+        "ori_relation": "award award_winner awards_won. award award_honor award_winner",
+        "rel_inverse": "award_winner award_honor award awards_won. award_winner award",
+        "rel_desc": "The person who has won an award given by the named individual or entity.",
+        "inver_rel_desc": "The individual or entity who presented or honored the award received by the named winner."
+    },
+    {
+        "relation": "position sports team roster sports current roster football team soccer ",
+        "ori_relation": "soccer football_team current_roster. sports sports_team_roster position",
+        "rel_inverse": "position sports_team_roster sports current_roster. football_team soccer",
+        "rel_desc": "The playing position within a football (soccer) team that is part of the team's current roster.",
+        "inver_rel_desc": "The football (soccer) team that has players occupying a specific playing position on its current roster."
+    },
+    {
+        "relation": "position football roster position current roster football team soccer ",
+        "ori_relation": "soccer football_team current_roster. soccer football_roster_position position",
+        "rel_inverse": "position football_roster_position soccer current_roster. football_team soccer",
+        "rel_desc": "The playing position within a football (soccer) team that is currently occupied by players on the team's roster.",
+        "inver_rel_desc": "The football (soccer) team that has players currently occupying a specific playing position on its roster."
+    },
+    {
+        "relation": "performance actor film ",
+        "ori_relation": "film actor film. film performance film",
+        "rel_inverse": "film performance film film. actor film",
+        "rel_desc": "The actor who performed in a specific film.",
+        "inver_rel_desc": "The film in which a specific actor performed."
+    },
+    {
+        "relation": "nominated for award nomination nominees award category award ",
+        "ori_relation": "award award_category nominees. award award_nomination nominated_for",
+        "rel_inverse": "nominated_for award_nomination award nominees. award_category award",
+        "rel_desc": "The award category for which a specific film was nominated",
+        "inver_rel_desc": "The film that was nominated for a specific award category."
+    },
+    {
+        "relation": "award nomination award nominations award nominee award ",
+        "ori_relation": "award award_nominee award_nominations. award award_nomination award_nominee",
+        "rel_inverse": "award_nominee award_nomination award award_nominations. award_nominee award",
+        "rel_desc": "The individual who received an award nomination presented by another specific individual.",
+        "inver_rel_desc": "The individual who presented or was associated with an award nomination for another specific individual."
+    },
+    {
+        "relation": "role group membership regular performances performance role music ",
+        "ori_relation": "music performance_role regular_performances. music group_membership role",
+        "rel_inverse": "role group_membership music regular_performances. performance_role music",
+        "rel_desc": "The musical instrument that plays a particular role or has a specific function in a musical group or performance.",
+        "inver_rel_desc": "The musical instrument that is complemented or mirrored by another specific instrument in a performance or musical group."
+    },
+    {
+        "relation": "ceremony award honor winners award category award ",
+        "ori_relation": "award award_category winners. award award_honor ceremony",
+        "rel_inverse": "ceremony award_honor award winners. award_category award",
+        "rel_desc": "The specific award category that was honored at a particular award ceremony.",
+        "inver_rel_desc": "The award ceremony where a specific award category was honored."
+    },
+    {
+        "relation": "film release distribution medium film regional release date release date s film ",
+        "ori_relation": "film film release_date_s. film film_regional_release_date film_release_distribution_medium",
+        "rel_inverse": "film_release_distribution_medium film_regional_release_date film release_date_s. film film",
+        "rel_desc": "The distribution medium through which a specific film was released in a particular region or format.",
+        "inver_rel_desc": "The films that were released using a specific distribution medium."
+    },
+    {
+        "relation": "award winner award honor awards won award winning work award ",
+        "ori_relation": "award award_winning_work awards_won. award award_honor award_winner",
+        "rel_inverse": "award_winner award_honor award awards_won. award_winning_work award",
+        "rel_desc": "The individual who won an award for their work in a specific film.",
+        "inver_rel_desc": "The film for which a specific individual won an award"
+    },
+    {
+        "relation": "film release region film regional release date release date s film ",
+        "ori_relation": "film film release_date_s. film film_regional_release_date film_release_region",
+        "rel_inverse": "film_release_region film_regional_release_date film release_date_s. film film",
+        "rel_desc": "The country or region where a specific film was released",
+        "inver_rel_desc": "The films that were released in a specific country or region"
+    },
+    {
+        "relation": "language film ",
+        "ori_relation": "film film language",
+        "rel_inverse": "language film film",
+        "rel_desc": "The language in which a specific film is available or presented.",
+        "inver_rel_desc": "The films that are available or presented in a specific language."
+    },
+    {
+        "relation": "contains location ",
+        "ori_relation": "location location contains",
+        "rel_inverse": "contains location location",
+        "rel_desc": "The larger geographic entity or area that includes a specific location within it.",
+        "inver_rel_desc": "The specific location that is part of a larger geographic entity or area."
+    },
+    {
+        "relation": "country mailing address location headquarters organization ",
+        "ori_relation": "organization organization headquarters. location mailing_address country",
+        "rel_inverse": "country mailing_address location headquarters. organization organization",
+        "rel_desc": "The country where the headquarters or main mailing address of a specific organization is located.",
+        "inver_rel_desc": "The organizations that have their headquarters or main mailing address located in a specific country"
+    },
+    {
+        "relation": "profession person people ",
+        "ori_relation": "people person profession",
+        "rel_inverse": "profession person people",
+        "rel_desc": "The occupation or professional role that a specific person hold",
+        "inver_rel_desc": "The person who holds a specific occupation or professional rol"
+    },
+    {
+        "relation": "religion religion percentage religions statistical region location ",
+        "ori_relation": "location statistical_region religions. location religion_percentage religion",
+        "rel_inverse": "religion religion_percentage location religions. statistical_region location",
+        "rel_desc": "The predominant or significant religion in a specific geographic region",
+        "inver_rel_desc": "The geographic region where a specific religion is predominant or significantly practiced"
+    },
+    {
+        "relation": "award award nomination award nominations award nominee award ",
+        "ori_relation": "award award_nominee award_nominations. award award_nomination award",
+        "rel_inverse": "award award_nomination award award_nominations. award_nominee award",
+        "rel_desc": "The award category for which a specific individual was nominated.",
+        "inver_rel_desc": "The individual who was nominated for a specific award category."
+    },
+    {
+        "relation": "artists genre music ",
+        "ori_relation": "music genre artists",
+        "rel_inverse": "artists genre music",
+        "rel_desc": "The music genre associated with a specific ar",
+        "inver_rel_desc": "The genre that a specific artist is known for or associated wi"
+    },
+    {
+        "relation": "influenced by influence node influence ",
+        "ori_relation": "influence influence_node influenced_by",
+        "rel_inverse": "influenced_by influence_node influence",
+        "rel_desc": "The individual who was creatively or intellectually influenced by another person.",
+        "inver_rel_desc": "The person who influenced another individual's creative or intellectual work."
+    },
+    {
+        "relation": "student students graduates educational institution education ",
+        "ori_relation": "education educational_institution students_graduates. education education student",
+        "rel_inverse": "student education education students_graduates. educational_institution education",
+        "rel_desc": "The educational institution where a specific individual was a student or graduated from.",
+        "inver_rel_desc": "The individual who was a student or graduate of a specific educational institution."
+    },
+    {
+        "relation": "organization organization membership member of organization member organization ",
+        "ori_relation": "organization organization_member member_of. organization organization_membership organization",
+        "rel_inverse": "organization organization_membership organization member_of. organization_member organization",
+        "rel_desc": "The international organization or institution that a specific country is a member of.",
+        "inver_rel_desc": "The country that is a member of a specific international organization or institution"
+    },
+    {
+        "relation": "place of birth person people ",
+        "ori_relation": "people person place_of_birth",
+        "rel_inverse": "place_of_birth person people",
+        "rel_desc": "The location where a specific person was born.",
+        "inver_rel_desc": "The person who was born in a specific location."
+    },
+    {
+        "relation": "category webpage topic common ",
+        "ori_relation": "common topic webpage. common webpage category",
+        "rel_inverse": "category webpage common webpage. topic common",
+        "rel_desc": "The type or category of the webpage that is associated with a specific entity.",
+        "inver_rel_desc": "The entity or subject that is associated with a specific type or category of webpag"
+    },
+    {
+        "relation": "film crew role film crew gig other crew film ",
+        "ori_relation": "film film other_crew. film film_crew_gig film_crew_role",
+        "rel_inverse": "film_crew_role film_crew_gig film other_crew. film film",
+        "rel_desc": "The specific crew role or job that was performed on a particular film.",
+        "inver_rel_desc": "The film on which a specific crew role or job was performed."
+    },
+    {
+        "relation": "award winner award honor awards presented award ceremony award ",
+        "ori_relation": "award award_ceremony awards_presented. award award_honor award_winner",
+        "rel_inverse": "award_winner award_honor award awards_presented. award_ceremony award",
+        "rel_desc": "The individual who received an award at a specific award ceremony.",
+        "inver_rel_desc": "The award ceremony where a specific individual was honored with an award."
+    },
+    {
+        "relation": "country film ",
+        "ori_relation": "film film country",
+        "rel_inverse": "country film film",
+        "rel_desc": "The country where a specific film was produced or is primarily associated with.",
+        "inver_rel_desc": "The films that were produced in or are primarily associated with a specific country."
+    },
+    {
+        "relation": "country olympic athlete affiliation athletes olympic sport olympics ",
+        "ori_relation": "olympics olympic_sport athletes. olympics olympic_athlete_affiliation country",
+        "rel_inverse": "country olympic_athlete_affiliation olympics athletes. olympic_sport olympics",
+        "rel_desc": "The country whose athletes participate in a specific Olympic sport.",
+        "inver_rel_desc": "The Olympic sport in which athletes from a specific country participate."
+    },
+    {
+        "relation": "award award honor awards won award winning work award ",
+        "ori_relation": "award award_winning_work awards_won. award award_honor award",
+        "rel_inverse": "award award_honor award awards_won. award_winning_work award",
+        "rel_desc": "The specific award that was won by a particular work (such as a film or performance).",
+        "inver_rel_desc": "The work (such as a film or performance) that won a specific award."
+    },
+    {
+        "relation": "genre film ",
+        "ori_relation": "film film genre",
+        "rel_inverse": "genre film film",
+        "rel_desc": "The genre or category of a specific film.",
+        "inver_rel_desc": "The films that fall within a specific genre or category."
+    },
+    {
+        "relation": "film film film distributor relationship films distributed film distributor film ",
+        "ori_relation": "film film_distributor films_distributed. film film_film_distributor_relationship film",
+        "rel_inverse": "film film_film_distributor_relationship film films_distributed. film_distributor film",
+        "rel_desc": "The company that distributed a specific film.",
+        "inver_rel_desc": "The film that was distributed by a specific company."
+    },
+    {
+        "relation": "currency dated money value measurement unit rent50 2 statistical region location ",
+        "ori_relation": "location statistical_region rent50_2. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit rent50_2. statistical_region location",
+        "rel_desc": "The currency used in a specific statistical region for measuring monetary values or rent-related statistics.",
+        "inver_rel_desc": "The statistical regions where a specific currency is used for monetary measurements or rent-related statistics"
+    },
+    {
+        "relation": "currency dated money value measurement unit estimated budget film ",
+        "ori_relation": "film film estimated_budget. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit estimated_budget. film film",
+        "rel_desc": "The currency in which the estimated budget of a specific film is measured",
+        "inver_rel_desc": "The films whose estimated budgets are measured in a specific currency."
+    },
+    {
+        "relation": "district represented government position held members legislative session government ",
+        "ori_relation": "government legislative_session members. government government_position_held district_represented",
+        "rel_inverse": "district_represented government_position_held government members. legislative_session government",
+        "rel_desc": "The state or district that was represented by members during a specific session of the United States Congre",
+        "inver_rel_desc": "The legislative session of the United States Congress in which a specific state or district was represented"
+    },
+    {
+        "relation": "position s football historical roster position american football roster sports team sports ",
+        "ori_relation": "sports sports_team roster. american_football football_historical_roster_position position_s",
+        "rel_inverse": "position_s football_historical_roster_position american_football roster. sports_team sports",
+        "rel_desc": "The position within a specific football team historically or currently.",
+        "inver_rel_desc": "The team or teams historically or currently associated with a specific football position"
+    },
+    {
+        "relation": "jurisdiction of office government position held officeholders government office category government ",
+        "ori_relation": "government government_office_category officeholders. government government_position_held jurisdiction_of_office",
+        "rel_inverse": "jurisdiction_of_office government_position_held government officeholders. government_office_category government",
+        "rel_desc": "pecific government position (like Prime Minister, Governor, or Mayor) holds jurisdiction or authority over the given region or city.",
+        "inver_rel_desc": "given region or city is governed by or falls under the jurisdiction of the specified government position."
+    },
+    {
+        "relation": "nominated for award nomination award nominations award nominee award ",
+        "ori_relation": "award award_nominee award_nominations. award award_nomination nominated_for",
+        "rel_inverse": "nominated_for award_nomination award award_nominations. award_nominee award",
+        "rel_desc": "The person was nominated for an award due to their work on the film or show.",
+        "inver_rel_desc": "The film or show gained recognition because the person was nominated for an award for their work on i"
+    },
+    {
+        "relation": "place of death deceased person people ",
+        "ori_relation": "people deceased_person place_of_death",
+        "rel_inverse": "place_of_death deceased_person people",
+        "rel_desc": "place where a specific person died.",
+        "inver_rel_desc": "at a particular place is the location where the specific person died."
+    },
+    {
+        "relation": "team sports team roster teams pro athlete sports ",
+        "ori_relation": "sports pro_athlete teams. sports sports_team_roster team",
+        "rel_inverse": "team sports_team_roster sports teams. pro_athlete sports",
+        "rel_desc": "lete played for the mentioned sports team.",
+        "inver_rel_desc": "mentioned sports team had the specific athlete on its roster."
+    },
+    {
+        "relation": "role track contribution track contributions artist music ",
+        "ori_relation": "music artist track_contributions. music track_contribution role",
+        "rel_inverse": "role track_contribution music track_contributions. artist music",
+        "rel_desc": "role or instrument that the artist played in a track",
+        "inver_rel_desc": "specified instrument or role was played by the particular artis"
+    },
+    {
+        "relation": "instrumentalists instrument music ",
+        "ori_relation": "music instrument instrumentalists",
+        "rel_inverse": "instrumentalists instrument music",
+        "rel_desc": "nstrument that a musician play",
+        "inver_rel_desc": "specified musician is an instrumentalist for the particular instrumen"
+    },
+    {
+        "relation": "gender person people ",
+        "ori_relation": "people person gender",
+        "rel_inverse": "gender person people",
+        "rel_desc": "popele(person)'s gender",
+        "inver_rel_desc": "People(person) of this gender ar"
+    },
+    {
+        "relation": "company employment tenure people with this title job title business ",
+        "ori_relation": "business job_title people_with_this_title. business employment_tenure company",
+        "rel_inverse": "company employment_tenure business people_with_this_title. job_title business",
+        "rel_desc": "role or job title that someone holds or held at the specified company",
+        "inver_rel_desc": "company has or had employees with the particular job titl"
+    },
+    {
+        "relation": "participant popstra base friendship celebrity popstra base ",
+        "ori_relation": "base popstra celebrity friendship. base popstra friendship participant",
+        "rel_inverse": "participant friendship popstra base friendship. celebrity popstra base",
+        "rel_desc": "participant are friend",
+        "inver_rel_desc": "participant are friends"
+    },
+    {
+        "relation": "industry business operation business ",
+        "ori_relation": "business business_operation industry",
+        "rel_inverse": "industry business_operation business",
+        "rel_desc": "ndustry in which the business operate",
+        "inver_rel_desc": "business operates in this industry"
+    },
+    {
+        "relation": "award winner award honor winners award category award ",
+        "ori_relation": "award award_category winners. award award_honor award_winner",
+        "rel_inverse": "award_winner award_honor award winners. award_category award",
+        "rel_desc": "person or group won a specific award.",
+        "inver_rel_desc": "award was won by a specific person or group."
+    },
+    {
+        "relation": "nationality person people ",
+        "ori_relation": "people person nationality",
+        "rel_inverse": "nationality person people",
+        "rel_desc": "person is from this country.",
+        "inver_rel_desc": "country is where this person is from."
+    },
+    {
+        "relation": "position baseball roster position baseball roster sports team sports ",
+        "ori_relation": "sports sports_team roster. baseball baseball_roster_position position",
+        "rel_inverse": "position baseball_roster_position baseball roster. sports_team sports",
+        "rel_desc": "This team has a player in this position.",
+        "inver_rel_desc": "This position is filled by a player on this team."
+    },
+    {
+        "relation": "cause of death people ",
+        "ori_relation": "people cause_of_death people",
+        "rel_inverse": "people cause_of_death people",
+        "rel_desc": "cause of death for this person.",
+        "inver_rel_desc": "person died from this caus"
+    },
+    {
+        "relation": "languages tv program tv ",
+        "ori_relation": "tv tv_program languages",
+        "rel_inverse": "languages tv_program tv",
+        "rel_desc": "TV program is in this language.",
+        "inver_rel_desc": "language is used in this TV program"
+    },
+    {
+        "relation": "parent genre genre music ",
+        "ori_relation": "music genre parent_genre",
+        "rel_inverse": "parent_genre genre music",
+        "rel_desc": "genre is a subgenre of this broader genr",
+        "inver_rel_desc": "broader genre includes this specific subgenre."
+    },
+    {
+        "relation": "participant popstra base breakup celebrity popstra base ",
+        "ori_relation": "base popstra celebrity breakup. base popstra breakup participant",
+        "rel_inverse": "participant breakup popstra base breakup. celebrity popstra base",
+        "rel_desc": "The breakup relationship between two celebritie",
+        "inver_rel_desc": "The breakup relationship between two celebrities"
+    },
+    {
+        "relation": "capital country location ",
+        "ori_relation": "location country capital",
+        "rel_inverse": "capital country location",
+        "rel_desc": "This country has this city as its capital.",
+        "inver_rel_desc": "This city is the capital of this country"
+    },
+    {
+        "relation": "film performance film performance type special film performance type film ",
+        "ori_relation": "film special_film_performance_type film_performance_type. film performance film",
+        "rel_inverse": "film performance film film_performance_type. special_film_performance_type film",
+        "rel_desc": "performance type is featured in this film",
+        "inver_rel_desc": "film includes this type of performanc"
+    },
+    {
+        "relation": "place hud county place location ",
+        "ori_relation": "location hud_county_place place",
+        "rel_inverse": "place hud_county_place location",
+        "rel_desc": "This place is identified as itself",
+        "inver_rel_desc": "This place is identified as itself"
+    },
+    {
+        "relation": "recording contribution guest performances performance role music ",
+        "ori_relation": "music performance_role guest_performances. music recording_contribution performance_role",
+        "rel_inverse": "performance_role recording_contribution music guest_performances. performance_role music",
+        "rel_desc": "nstrument contributed to the recording in the role of this other instrument or par",
+        "inver_rel_desc": "performance role or part was played or contributed to by this instrument in the recording"
+    },
+    {
+        "relation": "adjoins adjoining relationship adjoin s location ",
+        "ori_relation": "location location adjoin_s. location adjoining_relationship adjoins",
+        "rel_inverse": "adjoins adjoining_relationship location adjoin_s. location location",
+        "rel_desc": "This location adjoins or borders this other location.",
+        "inver_rel_desc": "This location adjoins or borders this other location."
+    },
+    {
+        "relation": "films film subject film ",
+        "ori_relation": "film film_subject films",
+        "rel_inverse": "films film_subject film",
+        "rel_desc": "ubject is what this film is about.",
+        "inver_rel_desc": "film is about this subject."
+    },
+    {
+        "relation": "currency dated money value measurement unit net worth person extra schemastaging base ",
+        "ori_relation": "base schemastaging person_extra net_worth. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit net_worth. person_extra schemastaging base",
+        "rel_desc": "person's net worth is measured in this currency.",
+        "inver_rel_desc": "currency is used to measure the net worth of this person"
+    },
+    {
+        "relation": "colors educational institution education ",
+        "ori_relation": "education educational_institution colors",
+        "rel_inverse": "colors educational_institution education",
+        "rel_desc": "The color of the educational institution",
+        "inver_rel_desc": "Which educational institution uses this color"
+    },
+    {
+        "relation": "administrative parent administrative area schema aareas base ",
+        "ori_relation": "base aareas schema administrative_area administrative_parent",
+        "rel_inverse": "administrative_parent administrative_area schema aareas base",
+        "rel_desc": "base administrative area is part of this parent administrative are",
+        "inver_rel_desc": "parent administrative area contains this base administrative area"
+    },
+    {
+        "relation": "organization leadership leaders role organization ",
+        "ori_relation": "organization role leaders. organization leadership organization",
+        "rel_inverse": "organization leadership organization leaders. role organization",
+        "rel_desc": "leadership role is associated with this organization",
+        "inver_rel_desc": "organization has this leadership rol"
+    },
+    {
+        "relation": "legislative sessions government position held members legislative session government ",
+        "ori_relation": "government legislative_session members. government government_position_held legislative_sessions",
+        "rel_inverse": "legislative_sessions government_position_held government members. legislative_session government",
+        "rel_desc": "The previous version of the legislative session",
+        "inver_rel_desc": "The next version of the legislative sessions is"
+    },
+    {
+        "relation": "sports olympic games olympics ",
+        "ori_relation": "olympics olympic_games sports",
+        "rel_inverse": "sports olympic_games olympics",
+        "rel_desc": "Olympic Games included this spor",
+        "inver_rel_desc": "sport was part of this Olympic Games"
+    },
+    {
+        "relation": "location place lived places lived person people ",
+        "ori_relation": "people person places_lived. people place_lived location",
+        "rel_inverse": "location place_lived people places_lived. person people",
+        "rel_desc": "person has lived in this plac",
+        "inver_rel_desc": "place is where this person has lived"
+    },
+    {
+        "relation": "disciplines or subjects award category award ",
+        "ori_relation": "award award_category disciplines_or_subjects",
+        "rel_inverse": "disciplines_or_subjects award_category award",
+        "rel_desc": "ward is given in the discipline or subject of this category.",
+        "inver_rel_desc": "discipline or subject is recognized by this award."
+    },
+    {
+        "relation": "school sports league draft pick draft picks professional sports team sports ",
+        "ori_relation": "sports professional_sports_team draft_picks. sports sports_league_draft_pick school",
+        "rel_inverse": "school sports_league_draft_pick sports draft_picks. professional_sports_team sports",
+        "rel_desc": "professional sports team drafted a player from this university or school",
+        "inver_rel_desc": "university or school had a player drafted by this professional sports team."
+    },
+    {
+        "relation": "olympics olympic medal honor medals won olympic participating country olympics ",
+        "ori_relation": "olympics olympic_participating_country medals_won. olympics olympic_medal_honor olympics",
+        "rel_inverse": "olympics olympic_medal_honor olympics medals_won. olympic_participating_country olympics",
+        "rel_desc": "country won Olympic medals in these Olympic Game",
+        "inver_rel_desc": "Olympic Games saw medals won by this country"
+    },
+    {
+        "relation": "countries spoken in human language language ",
+        "ori_relation": "language human_language countries_spoken_in",
+        "rel_inverse": "countries_spoken_in human_language language",
+        "rel_desc": "language is spoken in these countrie",
+        "inver_rel_desc": "country has this language spoken in i"
+    },
+    {
+        "relation": "ethnicity people ",
+        "ori_relation": "people ethnicity people",
+        "rel_inverse": "people ethnicity people",
+        "rel_desc": "Tethnicity is associated with this person",
+        "inver_rel_desc": "person is associated with this ethnicity"
+    },
+    {
+        "relation": "olympics olympic athlete affiliation athletes olympic participating country olympics ",
+        "ori_relation": "olympics olympic_participating_country athletes. olympics olympic_athlete_affiliation olympics",
+        "rel_inverse": "olympics olympic_athlete_affiliation olympics athletes. olympic_participating_country olympics",
+        "rel_desc": "country had athletes participate in these Olympic Game",
+        "inver_rel_desc": "Olympic Games included athletes from this country"
+    },
+    {
+        "relation": "medal olympic medal honor medals won olympic participating country olympics ",
+        "ori_relation": "olympics olympic_participating_country medals_won. olympics olympic_medal_honor medal",
+        "rel_inverse": "medal olympic_medal_honor olympics medals_won. olympic_participating_country olympics",
+        "rel_desc": "country won this type of Olympic medal",
+        "inver_rel_desc": "ype of Olympic medal was won by this country."
+    },
+    {
+        "relation": "crewmember film crew gig other crew film ",
+        "ori_relation": "film film other_crew. film film_crew_gig crewmember",
+        "rel_inverse": "crewmember film_crew_gig film other_crew. film film",
+        "rel_desc": "film had this person as a crew member",
+        "inver_rel_desc": "person worked as a crew member on this film"
+    },
+    {
+        "relation": "role track contribution track performances performance role music ",
+        "ori_relation": "music performance_role track_performances. music track_contribution role",
+        "rel_inverse": "role track_contribution music track_performances. performance_role music",
+        "rel_desc": "This instrument was used in a role typically associated with this other instrumen",
+        "inver_rel_desc": "This instrument typically performed a role that was actually done by this other instrumen"
+    },
+    {
+        "relation": "artist record label music ",
+        "ori_relation": "music record_label artist",
+        "rel_inverse": "artist record_label music",
+        "rel_desc": "record label represents or represented this ar",
+        "inver_rel_desc": "artist is or was associated with this record label"
+    },
+    {
+        "relation": "participant popstra base dated celebrity popstra base ",
+        "ori_relation": "base popstra celebrity dated. base popstra dated participant",
+        "rel_inverse": "participant dated popstra base dated. celebrity popstra base",
+        "rel_desc": "The romantic relationship between two celebritie",
+        "inver_rel_desc": "The romantic relationship between two celebrities"
+    },
+    {
+        "relation": "countries within continents locations base ",
+        "ori_relation": "base locations continents countries_within",
+        "rel_inverse": "countries_within continents locations base",
+        "rel_desc": "continent includes these countrie",
+        "inver_rel_desc": "country is part of this continen"
+    },
+    {
+        "relation": "school sports league draft pick picks sports league draft sports ",
+        "ori_relation": "sports sports_league_draft picks. sports sports_league_draft_pick school",
+        "rel_inverse": "school sports_league_draft_pick sports picks. sports_league_draft sports",
+        "rel_desc": "NFL Draft selected players from this university",
+        "inver_rel_desc": "university had players selected in this NFL Draft."
+    },
+    {
+        "relation": "sport sports team sports ",
+        "ori_relation": "sports sports_team sport",
+        "rel_inverse": "sport sports_team sports",
+        "rel_desc": "m plays this spor",
+        "inver_rel_desc": "sport is played by this team"
+    },
+    {
+        "relation": "educational institution educational institution campus education ",
+        "ori_relation": "education educational_institution_campus educational_institution",
+        "rel_inverse": "educational_institution educational_institution_campus education",
+        "rel_desc": "nstitution is recognized as itself",
+        "inver_rel_desc": "institution is still recognized as itself"
+    },
+    {
+        "relation": "religion person people ",
+        "ori_relation": "people person religion",
+        "rel_inverse": "religion person people",
+        "rel_desc": "person follows or is associated with this religion",
+        "inver_rel_desc": "religion is followed by or associated with this person"
+    },
+    {
+        "relation": "citytown mailing address location headquarters organization ",
+        "ori_relation": "organization organization headquarters. location mailing_address citytown",
+        "rel_inverse": "citytown mailing_address location headquarters. organization organization",
+        "rel_desc": "organization has its headquarters in this city or town",
+        "inver_rel_desc": "city or town is where the headquarters of this organization is located."
+    },
+    {
+        "relation": "produced by film ",
+        "ori_relation": "film film produced_by",
+        "rel_inverse": "produced_by film film",
+        "rel_desc": "film was produced by this producer",
+        "inver_rel_desc": "producer produced this film"
+    },
+    {
+        "relation": "type of union marriage spouse s person people ",
+        "ori_relation": "people person spouse_s. people marriage type_of_union",
+        "rel_inverse": "type_of_union marriage people spouse_s. person people",
+        "rel_desc": "person is involved in the union of marriag",
+        "inver_rel_desc": "Marriage is the union type associated with this person"
+    },
+    {
+        "relation": "production companies film ",
+        "ori_relation": "film film production_companies",
+        "rel_inverse": "production_companies film film",
+        "rel_desc": "film was produced by this production company.",
+        "inver_rel_desc": "production company produced this film"
+    },
+    {
+        "relation": "second level divisions country location ",
+        "ori_relation": "location country second_level_divisions",
+        "rel_inverse": "second_level_divisions country location",
+        "rel_desc": "country includes this second-level division (e.g., a county)",
+        "inver_rel_desc": "second-level division is located within this country"
+    },
+    {
+        "relation": "entity involved event culturalevent base ",
+        "ori_relation": "base culturalevent event entity_involved",
+        "rel_inverse": "entity_involved event culturalevent base",
+        "rel_desc": "vent involved this entity.",
+        "inver_rel_desc": "ntity was involved in this event."
+    },
+    {
+        "relation": "institution people with this degree educational degree education ",
+        "ori_relation": "education educational_degree people_with_this_degree. education education institution",
+        "rel_inverse": "institution education education people_with_this_degree. educational_degree education",
+        "rel_desc": "degree is awarded by or associated with people from this institution.",
+        "inver_rel_desc": "institution awarded or is associated with this degree."
+    },
+    {
+        "relation": "film distribution medium film film distributor relationship distributors film ",
+        "ori_relation": "film film distributors. film film_film_distributor_relationship film_distribution_medium",
+        "rel_inverse": "film_distribution_medium film_film_distributor_relationship film distributors. film film",
+        "rel_desc": "film was distributed through this medium or form",
+        "inver_rel_desc": "medium or format was used to distribute this film."
+    },
+    {
+        "relation": "producer type tv producer term tv producer tv program tv ",
+        "ori_relation": "tv tv_program tv_producer. tv tv_producer_term producer_type",
+        "rel_inverse": "producer_type tv_producer_term tv tv_producer. tv_program tv",
+        "rel_desc": "producer's role in relation to a specific TV show.",
+        "inver_rel_desc": "TV show that is associated with a particular producer's rol"
+    },
+    {
+        "relation": "group group membership regular performances performance role music ",
+        "ori_relation": "music performance_role regular_performances. music group_membership group",
+        "rel_inverse": "group group_membership music regular_performances. performance_role music",
+        "rel_desc": "role or instrument a musician regularly plays in a specific music group.",
+        "inver_rel_desc": "music group associated with a particular musician's performance role or instrument."
+    },
+    {
+        "relation": "legislative sessions government position held government positions held politician government ",
+        "ori_relation": "government politician government_positions_held. government government_position_held legislative_sessions",
+        "rel_inverse": "legislative_sessions government_position_held government government_positions_held. politician government",
+        "rel_desc": "legislative session a politician was a part of while holding a government position",
+        "inver_rel_desc": "politician who held a government position during a specific legislative session."
+    },
+    {
+        "relation": "teams sports team location sports ",
+        "ori_relation": "sports sports_team_location teams",
+        "rel_inverse": "teams sports_team_location sports",
+        "rel_desc": "location or city where a sports team is based",
+        "inver_rel_desc": "sports team that is based in a particular location or city"
+    },
+    {
+        "relation": "colors sports team sports ",
+        "ori_relation": "sports sports_team colors",
+        "rel_inverse": "colors sports_team sports",
+        "rel_desc": "official color(s) of a sports team",
+        "inver_rel_desc": "sports team that is associated with a particular color"
+    },
+    {
+        "relation": "draft sports league draft pick draft picks professional sports team sports ",
+        "ori_relation": "sports professional_sports_team draft_picks. sports sports_league_draft_pick draft",
+        "rel_inverse": "draft sports_league_draft_pick sports draft_picks. professional_sports_team sports",
+        "rel_desc": "ports league draft in which a particular team made its picks.",
+        "inver_rel_desc": "am that participated in a specific sports league draft."
+    },
+    {
+        "relation": "nominated for award nomination award nominations award nominated work award ",
+        "ori_relation": "award award_nominated_work award_nominations. award award_nomination nominated_for",
+        "rel_inverse": "nominated_for award_nomination award award_nominations. award_nominated_work award",
+        "rel_desc": "relationship between two works where one was nominated for an award in relation to the other.",
+        "inver_rel_desc": "work that is associated with the award nomination of another specific work."
+    },
+    {
+        "relation": "season baseball team stats team stats baseball team baseball ",
+        "ori_relation": "baseball baseball_team team_stats. baseball baseball_team_stats season",
+        "rel_inverse": "season baseball_team_stats baseball team_stats. baseball_team baseball",
+        "rel_desc": "MLB season during which a specific baseball team’s performance and stats are recorded",
+        "inver_rel_desc": "specific baseball team whose performance and stats are associated with a particular MLB season"
+    },
+    {
+        "relation": "interests philosopher philosophy alexander user ",
+        "ori_relation": "user alexander philosophy philosopher interests",
+        "rel_inverse": "interests philosopher philosophy alexander user",
+        "rel_desc": "rea of philosophy that a specific philosopher is known for or interested in.",
+        "inver_rel_desc": "philosopher associated with a particular area or field of philosophy."
+    },
+    {
+        "relation": "languages person people ",
+        "ori_relation": "people person languages",
+        "rel_inverse": "languages person people",
+        "rel_desc": "language that a specific person speaks or is connected to.",
+        "inver_rel_desc": "person who is associated with or speaks a particular languag"
+    },
+    {
+        "relation": "major field of study students graduates educational institution education ",
+        "ori_relation": "education educational_institution students_graduates. education education major_field_of_study",
+        "rel_inverse": "major_field_of_study education education students_graduates. educational_institution education",
+        "rel_desc": "cademic major or field of study that students pursue at a specific educational institution",
+        "inver_rel_desc": "ducational institution where students study or graduate in a particular academic major or field"
+    },
+    {
+        "relation": "director film ",
+        "ori_relation": "film director film",
+        "rel_inverse": "film director film",
+        "rel_desc": "who directed a specific mov",
+        "inver_rel_desc": "movie that was directed by a specific director"
+    },
+    {
+        "relation": "honored for award honor awards presented award ceremony award ",
+        "ori_relation": "award award_ceremony awards_presented. award award_honor honored_for",
+        "rel_inverse": "honored_for award_honor award awards_presented. award_ceremony award",
+        "rel_desc": "ward that a specific film received at a particular ceremony.",
+        "inver_rel_desc": "ceremony where a specific film was honored or received an award"
+    },
+    {
+        "relation": "olympics olympic athlete affiliation athletes olympic sport olympics ",
+        "ori_relation": "olympics olympic_sport athletes. olympics olympic_athlete_affiliation olympics",
+        "rel_inverse": "olympics olympic_athlete_affiliation olympics athletes. olympic_sport olympics",
+        "rel_desc": "Olympic sport that was part of a particular Olympic Game",
+        "inver_rel_desc": "specific Olympic Games where a particular sport was included"
+    },
+    {
+        "relation": "costume design by film ",
+        "ori_relation": "film film costume_design_by",
+        "rel_inverse": "costume_design_by film film",
+        "rel_desc": "person who designed the costumes for a specific film",
+        "inver_rel_desc": "film for which a specific costume designer created the costumes"
+    },
+    {
+        "relation": "featured film locations film ",
+        "ori_relation": "film film featured_film_locations",
+        "rel_inverse": "featured_film_locations film film",
+        "rel_desc": "location where a specific film was filmed or",
+        "inver_rel_desc": "film that was filmed or set in a specific location"
+    },
+    {
+        "relation": "genre tv program tv ",
+        "ori_relation": "tv tv_program genre",
+        "rel_inverse": "genre tv_program tv",
+        "rel_desc": "genre or style of a specific TV program",
+        "inver_rel_desc": "TV program that belongs to a specific genr"
+    },
+    {
+        "relation": "currency dated money value measurement unit endowment endowed organization organization ",
+        "ori_relation": "organization endowed_organization endowment. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit endowment. endowed_organization organization",
+        "rel_desc": "currency in which the endowment of a specific organization is measured",
+        "inver_rel_desc": "organization that has an endowment measured in a particular currency"
+    },
+    {
+        "relation": "written by film ",
+        "ori_relation": "film film written_by",
+        "rel_inverse": "written_by film film",
+        "rel_desc": "person who wrote or contributed to the writing of a specific film.",
+        "inver_rel_desc": "film that was written by a particular writer or screenwriter"
+    },
+    {
+        "relation": "producer type tv producer term programs produced tv producer tv ",
+        "ori_relation": "tv tv_producer programs_produced. tv tv_producer_term producer_type",
+        "rel_inverse": "producer_type tv_producer_term tv programs_produced. tv_producer tv",
+        "rel_desc": "role or job title related to TV production, such as Executive Producer.",
+        "inver_rel_desc": "individuals who occupy the role of Executive Producer."
+    },
+    {
+        "relation": "county hud county place location ",
+        "ori_relation": "location hud_county_place county",
+        "rel_inverse": "county hud_county_place location",
+        "rel_desc": "place being located within a specific county",
+        "inver_rel_desc": "county containing or encompassing a specific plac"
+    },
+    {
+        "relation": "major field of study people with this degree educational degree education ",
+        "ori_relation": "education educational_degree people_with_this_degree. education education major_field_of_study",
+        "rel_inverse": "major_field_of_study education education people_with_this_degree. educational_degree education",
+        "rel_desc": "pecific field of study that is pursued by people who hold a particular degree.",
+        "inver_rel_desc": "particular degree that is associated with people who have studied a specific field."
+    },
+    {
+        "relation": "contact category phone sandbox schemastaging base phone number organization extra schemastaging base ",
+        "ori_relation": "base schemastaging organization_extra phone_number. base schemastaging phone_sandbox contact_category",
+        "rel_inverse": "contact_category phone_sandbox schemastaging base phone_number. organization_extra schemastaging base",
+        "rel_desc": "ype of contact phone number associated with a specific organization.",
+        "inver_rel_desc": "organization associated with a specific type of contact phone number."
+    },
+    {
+        "relation": "cast members snl season tenure saturdaynightlive base seasons snl cast member saturdaynightlive base ",
+        "ori_relation": "base saturdaynightlive snl_cast_member seasons. base saturdaynightlive snl_season_tenure cast_members",
+        "rel_inverse": "cast_members snl_season_tenure saturdaynightlive base seasons. snl_cast_member saturdaynightlive base",
+        "rel_desc": "SNL cast members who were part of the same season or had overlapping tenures on Saturday Night Live.",
+        "inver_rel_desc": "cast members of Saturday Night Live who shared the same season or had overlapping tenures with the given person"
+    },
+    {
+        "relation": "film format film ",
+        "ori_relation": "film film film_format",
+        "rel_inverse": "film_format film film",
+        "rel_desc": "film format used in the production of the specified mov",
+        "inver_rel_desc": "movies that were produced using the specified film forma"
+    },
+    {
+        "relation": "music film ",
+        "ori_relation": "film film music",
+        "rel_inverse": "music film film",
+        "rel_desc": "composer who created the music or score for the specified mov",
+        "inver_rel_desc": "movie for which the specified composer created the music or scor"
+    },
+    {
+        "relation": "position football roster position american football roster sports team sports ",
+        "ori_relation": "sports sports_team roster. american_football football_roster_position position",
+        "rel_inverse": "position football_roster_position american_football roster. sports_team sports",
+        "rel_desc": "position a player occupies on the football roster for the specified sports team",
+        "inver_rel_desc": "sports teams that have players occupying the specified football roster position"
+    },
+    {
+        "relation": "taxonomy taxonomy entry random tsegaran user entry taxonomy subject random tsegaran user ",
+        "ori_relation": "user tsegaran random taxonomy_subject entry. user tsegaran random taxonomy_entry taxonomy",
+        "rel_inverse": "taxonomy taxonomy_entry random tsegaran user entry. taxonomy_subject random tsegaran user",
+        "rel_desc": "classification system or taxonomy used to categorize the specified subject or entity",
+        "inver_rel_desc": "subjects or entities that are categorized or classified under the specified classification system or taxonomy"
+    },
+    {
+        "relation": "friend friendship celebrity friends celebrity celebrities ",
+        "ori_relation": "celebrities celebrity celebrity_friends. celebrities friendship friend",
+        "rel_inverse": "friend friendship celebrities celebrity_friends. celebrity celebrities",
+        "rel_desc": "friendship relationship between two celebritie",
+        "inver_rel_desc": "friendship relationship between two celebrities"
+    },
+    {
+        "relation": "source dated integer measurement unit estimated number of mortgages hud foreclosure area location ",
+        "ori_relation": "location hud_foreclosure_area estimated_number_of_mortgages. measurement_unit dated_integer source",
+        "rel_inverse": "source dated_integer measurement_unit estimated_number_of_mortgages. hud_foreclosure_area location",
+        "rel_desc": "ource and estimated number of mortgages related to foreclosures in the specified area, provided by the United States Department of Housing and Urban Development (HUD).",
+        "inver_rel_desc": "areas for which the United States Department of Housing and Urban Development (HUD) has provided the estimated number of mortgages related to foreclosures"
+    },
+    {
+        "relation": "current club x2010fifaworldcupsouthafrica base current world cup squad world cup squad x2010fifaworldcupsouthafrica base ",
+        "ori_relation": "base x2010fifaworldcupsouthafrica world_cup_squad current_world_cup_squad. base x2010fifaworldcupsouthafrica current_world_cup_squad current_club",
+        "rel_inverse": "current_club current_world_cup_squad x2010fifaworldcupsouthafrica base current_world_cup_squad. world_cup_squad x2010fifaworldcupsouthafrica base",
+        "rel_desc": "football club where a player from the specified national team was playing during the 2010 FIFA World Cup",
+        "inver_rel_desc": "national team associated with the player who was playing for the specified club during the 2010 FIFA World Cup"
+    },
+    {
+        "relation": "vacationer vacation choice popstra base vacationers location popstra base ",
+        "ori_relation": "base popstra location vacationers. base popstra vacation_choice vacationer",
+        "rel_inverse": "vacationer vacation_choice popstra base vacationers. location popstra base",
+        "rel_desc": "location chosen by a specific celebrity as their vacation destination.",
+        "inver_rel_desc": "celebrity who chose the specified location as their vacation destination"
+    },
+    {
+        "relation": "participant popstra base canoodled celebrity popstra base ",
+        "ori_relation": "base popstra celebrity canoodled. base popstra canoodled participant",
+        "rel_inverse": "participant canoodled popstra base canoodled. celebrity popstra base",
+        "rel_desc": "ntimate relationship between two celebritie",
+        "inver_rel_desc": "intimate relationship between two celebrities"
+    },
+    {
+        "relation": "school type educational institution education ",
+        "ori_relation": "education educational_institution school_type",
+        "rel_inverse": "school_type educational_institution education",
+        "rel_desc": "ype or classification of the educational institution",
+        "inver_rel_desc": "ducational institution that belongs to or is classified under the specified school typ"
+    },
+    {
+        "relation": "athlete pro sports played pro athletes sport sports ",
+        "ori_relation": "sports sport pro_athletes. sports pro_sports_played athlete",
+        "rel_inverse": "athlete pro_sports_played sports pro_athletes. sport sports",
+        "rel_desc": "professional sport that a specific athlete played.",
+        "inver_rel_desc": "athlete who played the specified professional spor"
+    },
+    {
+        "relation": "inductee hall of fame induction inductees hall of fame award ",
+        "ori_relation": "award hall_of_fame inductees. award hall_of_fame_induction inductee",
+        "rel_inverse": "inductee hall_of_fame_induction award inductees. hall_of_fame award",
+        "rel_desc": "n individual or group that has been inducted into a specific Hall of Fame..",
+        "inver_rel_desc": "Hall of Fame into which the specified individual or group has been inducted"
+    },
+    {
+        "relation": "state bibs location biblioness base ",
+        "ori_relation": "base biblioness bibs_location state",
+        "rel_inverse": "state bibs_location biblioness base",
+        "rel_desc": "ate in which a specific location or city is situated",
+        "inver_rel_desc": "specific location or city that is situated within the specified state."
+    },
+    {
+        "relation": "currency dated money value measurement unit local tuition university education ",
+        "ori_relation": "education university local_tuition. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit local_tuition. university education",
+        "rel_desc": "currency used for the tuition fees at a specific university",
+        "inver_rel_desc": "university where the specified currency is used for tuition fees"
+    },
+    {
+        "relation": "currency dated money value measurement unit revenue business operation business ",
+        "ori_relation": "business business_operation revenue. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit revenue. business_operation business",
+        "rel_desc": "currency in which the revenue of a specific organization or business operation is measured",
+        "inver_rel_desc": "organization or business operation that measures its revenue in the specified currency"
+    },
+    {
+        "relation": "team sports team roster players sports position sports ",
+        "ori_relation": "sports sports_position players. sports sports_team_roster team",
+        "rel_inverse": "team sports_team_roster sports players. sports_position sports",
+        "rel_desc": "ports team that has players occupying a specific position on its roster.",
+        "inver_rel_desc": "position that a player occupies on the roster of the specified sports team."
+    },
+    {
+        "relation": "military combatant group combatants military conflict military ",
+        "ori_relation": "military military_conflict combatants. military military_combatant_group combatants",
+        "rel_inverse": "combatants military_combatant_group military combatants. military_conflict military",
+        "rel_desc": "military group or nation that participated as a combatant in a specific military conflic",
+        "inver_rel_desc": "military conflict in which the specified military group or nation participated as a combatant."
+    },
+    {
+        "relation": "team sports league participation teams sports league sports ",
+        "ori_relation": "sports sports_league teams. sports sports_league_participation team",
+        "rel_inverse": "team sports_league_participation sports teams. sports_league sports",
+        "rel_desc": "ports league in which a specific team participate",
+        "inver_rel_desc": "am that participates in the specified sports leagu"
+    },
+    {
+        "relation": "country bibs location biblioness base ",
+        "ori_relation": "base biblioness bibs_location country",
+        "rel_inverse": "country bibs_location biblioness base",
+        "rel_desc": "country in which a specific location or city is situated",
+        "inver_rel_desc": "specific location or city that is situated within the specified country"
+    },
+    {
+        "relation": "role group membership membership group member music ",
+        "ori_relation": "music group_member membership. music group_membership role",
+        "rel_inverse": "role group_membership music membership. group_member music",
+        "rel_desc": "musical role or instrument played by a specific musician within a group",
+        "inver_rel_desc": "musician who plays the specified musical role or instrument within a group"
+    },
+    {
+        "relation": "country administrative division location ",
+        "ori_relation": "location administrative_division country",
+        "rel_inverse": "country administrative_division location",
+        "rel_desc": "country in which a specific administrative division (such as a city or state) is located",
+        "inver_rel_desc": "specific administrative division (such as a city or state) that is located within the specified country"
+    },
+    {
+        "relation": "executive produced by film ",
+        "ori_relation": "film film executive_produced_by",
+        "rel_inverse": "executive_produced_by film film",
+        "rel_desc": "person who served as the executive producer for the specified film",
+        "inver_rel_desc": "film that was executive produced by the specified person"
+    },
+    {
+        "relation": "nutrient nutrition fact nutrients food ",
+        "ori_relation": "food food nutrients. food nutrition_fact nutrient",
+        "rel_inverse": "nutrient nutrition_fact food nutrients. food food",
+        "rel_desc": "pecific nutrient found in the given food item",
+        "inver_rel_desc": "food item that contains the specified nutrien"
+    },
+    {
+        "relation": "group group membership membership group member music ",
+        "ori_relation": "music group_member membership. music group_membership group",
+        "rel_inverse": "group group_membership music membership. group_member music",
+        "rel_desc": "music group or band to which a specific musician belongs or has belonged",
+        "inver_rel_desc": "musician who is or was a member of the specified music group or band"
+    },
+    {
+        "relation": "currency dated money value measurement unit gdp nominal per capita statistical region location ",
+        "ori_relation": "location statistical_region gdp_nominal_per_capita. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit gdp_nominal_per_capita. statistical_region location",
+        "rel_desc": "currency used to measure the GDP nominal per capita for a specific country or region",
+        "inver_rel_desc": "country or region whose GDP nominal per capita is measured using the specified currency"
+    },
+    {
+        "relation": "student students majoring field of study education ",
+        "ori_relation": "education field_of_study students_majoring. education education student",
+        "rel_inverse": "student education education students_majoring. field_of_study education",
+        "rel_desc": "field of study or major that a specific student pursued during their education",
+        "inver_rel_desc": "student who pursued a specific field of study or major during their education"
+    },
+    {
+        "relation": "honored for award honor awards won award winning work award ",
+        "ori_relation": "award award_winning_work awards_won. award award_honor honored_for",
+        "rel_inverse": "honored_for award_honor award awards_won. award_winning_work award",
+        "rel_desc": "ward-winning work that was honored or recognized by the given award",
+        "inver_rel_desc": "award-winning work that was honored for or associated with the specified work"
+    },
+    {
+        "relation": "position basketball roster position basketball roster sports team sports ",
+        "ori_relation": "sports sports_team roster. basketball basketball_roster_position position",
+        "rel_inverse": "position basketball_roster_position basketball roster. sports_team sports",
+        "rel_desc": "basketball position that a specific player occupies on the roster of the given sports team",
+        "inver_rel_desc": "sports team that has a player occupying the specified basketball position on its roster."
+    },
+    {
+        "relation": "state province region mailing address location headquarters organization ",
+        "ori_relation": "organization organization headquarters. location mailing_address state_province_region",
+        "rel_inverse": "state_province_region mailing_address location headquarters. organization organization",
+        "rel_desc": "ate, province, or region where the headquarters or main location of a specific organization is situated",
+        "inver_rel_desc": "organization that is headquartered or located in the specified state, province, or region"
+    },
+    {
+        "relation": "capital administrative area schema aareas base ",
+        "ori_relation": "base aareas schema administrative_area capital",
+        "rel_inverse": "capital administrative_area schema aareas base",
+        "rel_desc": "capital city of a specific country, state, or administrative region",
+        "inver_rel_desc": "country, state, or administrative region for which the specified city serves as the capital"
+    },
+    {
+        "relation": "program tv producer term programs produced tv producer tv ",
+        "ori_relation": "tv tv_producer programs_produced. tv tv_producer_term program",
+        "rel_inverse": "program tv_producer_term tv programs_produced. tv_producer tv",
+        "rel_desc": "levision program that was produced by the specified TV producer or production company",
+        "inver_rel_desc": "TV producer or production company responsible for producing the specified television program"
+    },
+    {
+        "relation": "campuses educational institution education ",
+        "ori_relation": "education educational_institution campuses",
+        "rel_inverse": "campuses educational_institution education",
+        "rel_desc": "campus associated with a specific educational institution.",
+        "inver_rel_desc": "ducational institution that is represented by the specified campus."
+    },
+    {
+        "relation": "region film film distributor relationship distributors film ",
+        "ori_relation": "film film distributors. film film_film_distributor_relationship region",
+        "rel_inverse": "region film_film_distributor_relationship film distributors. film film",
+        "rel_desc": "region where the specified film is distributed by the film distributor.",
+        "inver_rel_desc": "films that are distributed by a film distributor in the specified region"
+    },
+    {
+        "relation": "month travel destination monthly climate climate travel destination travel ",
+        "ori_relation": "travel travel_destination climate. travel travel_destination_monthly_climate month",
+        "rel_inverse": "month travel_destination_monthly_climate travel climate. travel_destination travel",
+        "rel_desc": "month in which a specific travel destination is associated with its typical climate conditions, making it a desirable time to v",
+        "inver_rel_desc": "ravel destination that is associated with a specific month, reflecting its climate conditions during that tim"
+    },
+    {
+        "relation": "notable people with this condition disease medicine ",
+        "ori_relation": "medicine disease notable_people_with_this_condition",
+        "rel_inverse": "notable_people_with_this_condition disease medicine",
+        "rel_desc": "medical condition or disease that a notable person is known to hav",
+        "inver_rel_desc": "notable person who is known to have the specified medical condition or diseas"
+    },
+    {
+        "relation": "service location phone sandbox schemastaging base phone number organization extra schemastaging base ",
+        "ori_relation": "base schemastaging organization_extra phone_number. base schemastaging phone_sandbox service_location",
+        "rel_inverse": "service_location phone_sandbox schemastaging base phone_number. organization_extra schemastaging base",
+        "rel_desc": "geographic location where the specified organization provides its services or has a contact phone number availabl",
+        "inver_rel_desc": "organization that provides services or has a contact phone number available in the specified geographic location"
+    },
+    {
+        "relation": "geographic distribution ethnicity people ",
+        "ori_relation": "people ethnicity geographic_distribution",
+        "rel_inverse": "geographic_distribution ethnicity people",
+        "rel_desc": "geographic location where a specific ethnic group or people are commonly found or have a significant presenc",
+        "inver_rel_desc": "nic group or people that are commonly found or have a significant presence in the specified geographic location"
+    },
+    {
+        "relation": "combatants military combatant group military conflicts military combatant military ",
+        "ori_relation": "military military_combatant military_conflicts. military military_combatant_group combatants",
+        "rel_inverse": "combatants military_combatant_group military military_conflicts. military_combatant military",
+        "rel_desc": "military groups or nations that were engaged as combatants in specific military conflic",
+        "inver_rel_desc": "military conflicts or situations in which the specified military groups or nations were combatants"
+    },
+    {
+        "relation": "person personal film appearance personal appearances film ",
+        "ori_relation": "film film personal_appearances. film personal_film_appearance person",
+        "rel_inverse": "person personal_film_appearance film personal_appearances. film film",
+        "rel_desc": "ndividual who made a personal appearance in the specified film",
+        "inver_rel_desc": "film in which the specified individual made a personal appearanc"
+    },
+    {
+        "relation": "time zones location ",
+        "ori_relation": "location location time_zones",
+        "rel_inverse": "time_zones location location",
+        "rel_desc": "me zone in which a specific location or city is situated.",
+        "inver_rel_desc": "location or city that is situated within the specified time zone."
+    },
+    {
+        "relation": "story by film ",
+        "ori_relation": "film film story_by",
+        "rel_inverse": "story_by film film",
+        "rel_desc": "person who created or wrote the story for the specified film",
+        "inver_rel_desc": "film for which the specified person created or wrote the story"
+    },
+    {
+        "relation": "dog breed dog city relationship petbreeds base top breeds city with dogs petbreeds base ",
+        "ori_relation": "base petbreeds city_with_dogs top_breeds. base petbreeds dog_city_relationship dog_breed",
+        "rel_inverse": "dog_breed dog_city_relationship petbreeds base top_breeds. city_with_dogs petbreeds base",
+        "rel_desc": "dog breed that is particularly popular or commonly found in a specific city",
+        "inver_rel_desc": "city where a specific dog breed is particularly popular or commonly found"
+    },
+    {
+        "relation": "participating countries olympic games olympics ",
+        "ori_relation": "olympics olympic_games participating_countries",
+        "rel_inverse": "participating_countries olympic_games olympics",
+        "rel_desc": "countries that participated in the specified Olympic Game",
+        "inver_rel_desc": "Olympic Games in which the specified country participated"
+    },
+    {
+        "relation": "program tv network duration programs tv network tv ",
+        "ori_relation": "tv tv_network programs. tv tv_network_duration program",
+        "rel_inverse": "program tv_network_duration tv programs. tv_network tv",
+        "rel_desc": "levision network that aired a specific TV program during its broadcast duration",
+        "inver_rel_desc": "TV program that was aired by the specified television network"
+    },
+    {
+        "relation": "company employment tenure business employment history person people ",
+        "ori_relation": "people person employment_history. business employment_tenure company",
+        "rel_inverse": "company employment_tenure business employment_history. person people",
+        "rel_desc": "company or organization where a specific person has been employed during their career",
+        "inver_rel_desc": "person who has been employed at the specified company or organization during their career"
+    },
+    {
+        "relation": "origin artist music ",
+        "ori_relation": "music artist origin",
+        "rel_inverse": "origin artist music",
+        "rel_desc": "place or city where a specific music artist originated or is associated w",
+        "inver_rel_desc": "music artist who is associated with or originated from the specified place or city"
+    },
+    {
+        "relation": "location of ceremony marriage unions of this type marriage union type people ",
+        "ori_relation": "people marriage_union_type unions_of_this_type. people marriage location_of_ceremony",
+        "rel_inverse": "location_of_ceremony marriage people unions_of_this_type. marriage_union_type people",
+        "rel_desc": "place or city where a specific type of marriage or union ceremony takes plac",
+        "inver_rel_desc": "ype of marriage or union ceremony that took place in the specified location or city"
+    },
+    {
+        "relation": "tv program tv program writer relationship tv programs tv writer tv ",
+        "ori_relation": "tv tv_writer tv_programs. tv tv_program_writer_relationship tv_program",
+        "rel_inverse": "tv_program tv_program_writer_relationship tv tv_programs. tv_writer tv",
+        "rel_desc": "levision program that was written by a specific TV writer",
+        "inver_rel_desc": "TV writer who wrote for the specified television program"
+    },
+    {
+        "relation": "locations event time ",
+        "ori_relation": "time event locations",
+        "rel_inverse": "locations event time",
+        "rel_desc": "geographic locations where a specific event took plac",
+        "inver_rel_desc": "vent that took place in the specified geographic location"
+    },
+    {
+        "relation": "romantic relationship sexual relationships celebrity celebrities ",
+        "ori_relation": "celebrities celebrity sexual_relationships. celebrities romantic_relationship celebrity",
+        "rel_inverse": "celebrity romantic_relationship celebrities sexual_relationships. celebrity celebrities",
+        "rel_desc": "romantic or sexual relationship between two celebritie",
+        "inver_rel_desc": "other celebrity involved in a romantic or sexual relationship with the specified person"
+    },
+    {
+        "relation": "politician political party tenure politicians in this party political party government ",
+        "ori_relation": "government political_party politicians_in_this_party. government political_party_tenure politician",
+        "rel_inverse": "politician political_party_tenure government politicians_in_this_party. political_party government",
+        "rel_desc": "political party to which a specific politician belongs or belonged during their tenure.",
+        "inver_rel_desc": "politician who belongs or belonged to the specified political party during their tenur"
+    },
+    {
+        "relation": "currency dated money value measurement unit domestic tuition university education ",
+        "ori_relation": "education university domestic_tuition. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit domestic_tuition. university education",
+        "rel_desc": "currency used to measure the domestic tuition fees at a specific university",
+        "inver_rel_desc": "university where the domestic tuition fees are measured using the specified currency"
+    },
+    {
+        "relation": "registering agency non profit registration registered with non profit organization organization ",
+        "ori_relation": "organization non_profit_organization registered_with. organization non_profit_registration registering_agency",
+        "rel_inverse": "registering_agency non_profit_registration organization registered_with. non_profit_organization organization",
+        "rel_desc": "government agency with which a specific nonprofit organization is registered",
+        "inver_rel_desc": "nonprofit organizations that are registered with the specified government agency."
+    },
+    {
+        "relation": "member states international organization default domain ktrueman user ",
+        "ori_relation": "user ktrueman default_domain international_organization member_states",
+        "rel_inverse": "member_states international_organization default_domain ktrueman user",
+        "rel_desc": "countries that are member states of a specific international organization.",
+        "inver_rel_desc": "international organization to which the specified country belongs as a member sta"
+    },
+    {
+        "relation": "position sports team roster sports current roster football team american football ",
+        "ori_relation": "american_football football_team current_roster. sports sports_team_roster position",
+        "rel_inverse": "position sports_team_roster sports current_roster. football_team american_football",
+        "rel_desc": "pecific position that a player occupies on the current roster of a football team",
+        "inver_rel_desc": "football team that has a player occupying the specified position on its current roster"
+    },
+    {
+        "relation": "team sports team roster sports current team football player soccer ",
+        "ori_relation": "soccer football_player current_team. sports sports_team_roster team",
+        "rel_inverse": "team sports_team_roster sports current_team. football_player soccer",
+        "rel_desc": "current football (soccer) team that a specific player is a part of on the team roster",
+        "inver_rel_desc": "football (soccer) player who is currently part of the specified team's roster"
+    },
+    {
+        "relation": "medal olympic medal honor medals awarded olympic games olympics ",
+        "ori_relation": "olympics olympic_games medals_awarded. olympics olympic_medal_honor medal",
+        "rel_inverse": "medal olympic_medal_honor olympics medals_awarded. olympic_games olympics",
+        "rel_desc": "ype of medal (Gold, Silver, Bronze) that was awarded during a specific Olympic Games.",
+        "inver_rel_desc": "Olympic Games during which the specified type of medal was awarded"
+    },
+    {
+        "relation": "list ranking appears in ranked lists ranked item award ",
+        "ori_relation": "award ranked_item appears_in_ranked_lists. award ranking list",
+        "rel_inverse": "list ranking award appears_in_ranked_lists. ranked_item award",
+        "rel_desc": "ranked list or award in which a specific entity (university, film, or person) appears or is recognized",
+        "inver_rel_desc": "ntity (university, film, or person) that appears or is recognized in the specified ranked list or award"
+    },
+    {
+        "relation": "film sets designed film set designer film ",
+        "ori_relation": "film film_set_designer film_sets_designed",
+        "rel_inverse": "film_sets_designed film_set_designer film",
+        "rel_desc": "film for which a specific set designer created the sets.",
+        "inver_rel_desc": "set designer who created the sets for the specified film"
+    },
+    {
+        "relation": "sports olympic games default domain jg user ",
+        "ori_relation": "user jg default_domain olympic_games sports",
+        "rel_inverse": "sports olympic_games default_domain jg user",
+        "rel_desc": "ports that were featured in a specific Olympic Game",
+        "inver_rel_desc": "Olympic Games in which the specified sport was featured"
+    },
+    {
+        "relation": "sibling sibling relationship sibling s person people ",
+        "ori_relation": "people person sibling_s. people sibling_relationship sibling",
+        "rel_inverse": "sibling sibling_relationship people sibling_s. person people",
+        "rel_desc": "bling relationship between two specific individual",
+        "inver_rel_desc": "other sibling in the relationship with the specified individual"
+    },
+    {
+        "relation": "team ncaa tournament seed marchmadness base seeds ncaa basketball tournament marchmadness base ",
+        "ori_relation": "base marchmadness ncaa_basketball_tournament seeds. base marchmadness ncaa_tournament_seed team",
+        "rel_inverse": "team ncaa_tournament_seed marchmadness base seeds. ncaa_basketball_tournament marchmadness base",
+        "rel_desc": "basketball team that was seeded in a specific NCAA Men's Division I Basketball Tournamen",
+        "inver_rel_desc": "NCAA Men's Division I Basketball Tournament in which the specified basketball team was seeded"
+    },
+    {
+        "relation": "performance role recording contribution contribution artist music ",
+        "ori_relation": "music artist contribution. music recording_contribution performance_role",
+        "rel_inverse": "performance_role recording_contribution music contribution. artist music",
+        "rel_desc": "pecific role or musical contribution that an artist performed in a recording",
+        "inver_rel_desc": "artist who performed the specified role or made the specified musical contribution in a recording"
+    },
+    {
+        "relation": "position sports team roster players sports position sports ",
+        "ori_relation": "sports sports_position players. sports sports_team_roster position",
+        "rel_inverse": "position sports_team_roster sports players. sports_position sports",
+        "rel_desc": "ports position that is compared or associated with another position on a team roster.",
+        "inver_rel_desc": "position that is being compared or associated with the specified position."
+    },
+    {
+        "relation": "basic title government position held government positions held politician government ",
+        "ori_relation": "government politician government_positions_held. government government_position_held basic_title",
+        "rel_inverse": "basic_title government_position_held government government_positions_held. politician government",
+        "rel_desc": "government position or title that a specific politician has held.",
+        "inver_rel_desc": "politician who has held the specified government position or titl"
+    },
+    {
+        "relation": "position s football historical roster position american football players sports position sports ",
+        "ori_relation": "sports sports_position players. american_football football_historical_roster_position position_s",
+        "rel_inverse": "position_s football_historical_roster_position american_football players. sports_position sports",
+        "rel_desc": "American football position that is historically associated or compared with another specific position on the roster.",
+        "inver_rel_desc": "specific position that has historically been associated or compared with the given football position"
+    },
+    {
+        "relation": "specialization of profession people ",
+        "ori_relation": "people profession specialization_of",
+        "rel_inverse": "specialization_of profession people",
+        "rel_desc": "broader profession or field that a specific specialization falls under.",
+        "inver_rel_desc": "specific specialization or role that falls under the broader profession or field"
+    },
+    {
+        "relation": "category of award category award ",
+        "ori_relation": "award award_category category_of",
+        "rel_inverse": "category_of award_category award",
+        "rel_desc": "broader award ceremony or event under which a specific award category falls.",
+        "inver_rel_desc": "specific award category that is part of the broader award ceremony or event."
+    },
+    {
+        "relation": "cinematography film ",
+        "ori_relation": "film film cinematography",
+        "rel_inverse": "cinematography film film",
+        "rel_desc": "cinematographer responsible for the visual work in a specific film",
+        "inver_rel_desc": "film for which the specified cinematographer was responsible for the visual work"
+    },
+    {
+        "relation": "film production design by film ",
+        "ori_relation": "film film film_production_design_by",
+        "rel_inverse": "film_production_design_by film film",
+        "rel_desc": "production designer responsible for the visual and aesthetic design of a specific film",
+        "inver_rel_desc": "film for which the specified production designer was responsible for the visual and aesthetic design"
+    },
+    {
+        "relation": "country of origin tv program tv ",
+        "ori_relation": "tv tv_program country_of_origin",
+        "rel_inverse": "country_of_origin tv_program tv",
+        "rel_desc": "country where a specific TV program was originally produced or created.",
+        "inver_rel_desc": "TV program that was originally produced or created in the specified country"
+    },
+    {
+        "relation": "edited by film ",
+        "ori_relation": "film film edited_by",
+        "rel_inverse": "edited_by film film",
+        "rel_desc": "This film was edited by this editor.",
+        "inver_rel_desc": "This editor worked on this film as the editor"
+    },
+    {
+        "relation": "program tv regular personal appearance tv regular appearances tv personality tv ",
+        "ori_relation": "tv tv_personality tv_regular_appearances. tv tv_regular_personal_appearance program",
+        "rel_inverse": "program tv_regular_personal_appearance tv tv_regular_appearances. tv_personality tv",
+        "rel_desc": "This TV personality regularly appeared on this TV show",
+        "inver_rel_desc": "This TV show regularly featured this TV personality"
+    },
+    {
+        "relation": "major field of study students majoring field of study education ",
+        "ori_relation": "education field_of_study students_majoring. education education major_field_of_study",
+        "rel_inverse": "major_field_of_study education education students_majoring. field_of_study education",
+        "rel_desc": "Students majoring in this field often also study this other field.",
+        "inver_rel_desc": "Students majoring in this other field often also study this field"
+    },
+    {
+        "relation": "student people with this degree educational degree education ",
+        "ori_relation": "education educational_degree people_with_this_degree. education education student",
+        "rel_inverse": "student education education people_with_this_degree. educational_degree education",
+        "rel_desc": "This person holds this specific educational degr",
+        "inver_rel_desc": "This specific educational degree is held by this person"
+    },
+    {
+        "relation": "county seat us county location ",
+        "ori_relation": "location us_county county_seat",
+        "rel_inverse": "county_seat us_county location",
+        "rel_desc": "This county has this city as its county se",
+        "inver_rel_desc": "This city is the county seat of this county"
+    },
+    {
+        "relation": "film festivals film ",
+        "ori_relation": "film film film_festivals",
+        "rel_inverse": "film_festivals film film",
+        "rel_desc": "This film was showcased at this film festival",
+        "inver_rel_desc": "This film festival showcased this film"
+    },
+    {
+        "relation": "spouse marriage spouse s person people ",
+        "ori_relation": "people person spouse_s. people marriage spouse",
+        "rel_inverse": "spouse marriage people spouse_s. person people",
+        "rel_desc": "This person is married to this other person",
+        "inver_rel_desc": "This other person is married to this person"
+    },
+    {
+        "relation": "film release region film cut runtime film ",
+        "ori_relation": "film film runtime. film film_cut film_release_region",
+        "rel_inverse": "film_release_region film_cut film runtime. film film",
+        "rel_desc": "This film was released in this region",
+        "inver_rel_desc": "This region released this film"
+    },
+    {
+        "relation": "administrative division administrative division capital relationship capital of capital of administrative division location ",
+        "ori_relation": "location capital_of_administrative_division capital_of. location administrative_division_capital_relationship administrative_division",
+        "rel_inverse": "administrative_division administrative_division_capital_relationship location capital_of. capital_of_administrative_division location",
+        "rel_desc": "city is the capital of the administrative division",
+        "inver_rel_desc": "where the administrative division has the city as its capital"
+    },
+    {
+        "relation": "administrative area type administrative area schema aareas base ",
+        "ori_relation": "base aareas schema administrative_area administrative_area_type",
+        "rel_inverse": "administrative_area_type administrative_area schema aareas base",
+        "rel_desc": "particular country is classified as a sovereign",
+        "inver_rel_desc": "a country categorized under the sovereign state classification"
+    },
+    {
+        "relation": "peer relationship peers influence node influence ",
+        "ori_relation": "influence influence_node peers. influence peer_relationship peers",
+        "rel_inverse": "peers peer_relationship influence peers. influence_node influence",
+        "rel_desc": "nfluence one individual has on another within their peer group.",
+        "inver_rel_desc": "influence one individual has on another within their peer group."
+    },
+    {
+        "relation": "legislative sessions government position held members governmental body government ",
+        "ori_relation": "government governmental_body members. government government_position_held legislative_sessions",
+        "rel_inverse": "legislative_sessions government_position_held government members. governmental_body government",
+        "rel_desc": "legislative sessions held by a specific governmental body",
+        "inver_rel_desc": "governmental body that participated in or was involved in a specific legislative session"
+    },
+    {
+        "relation": "service language phone sandbox schemastaging base phone number organization extra schemastaging base ",
+        "ori_relation": "base schemastaging organization_extra phone_number. base schemastaging phone_sandbox service_language",
+        "rel_inverse": "service_language phone_sandbox schemastaging base phone_number. organization_extra schemastaging base",
+        "rel_desc": "language used by an organization for its phone services or customer suppor",
+        "inver_rel_desc": "organization that provides phone services or customer support in a specific languag"
+    },
+    {
+        "relation": "place founded organization ",
+        "ori_relation": "organization organization place_founded",
+        "rel_inverse": "place_founded organization organization",
+        "rel_desc": "city or place where an organization was founded",
+        "inver_rel_desc": "organization that was founded in a particular city or plac"
+    },
+    {
+        "relation": "diet practicer of diet eating base ",
+        "ori_relation": "base eating practicer_of_diet diet",
+        "rel_inverse": "diet practicer_of_diet eating base",
+        "rel_desc": "diet that a particular person follow",
+        "inver_rel_desc": "people who follow a particular di"
+    },
+    {
+        "relation": "program creator tv program tv ",
+        "ori_relation": "tv tv_program program_creator",
+        "rel_inverse": "program_creator tv_program tv",
+        "rel_desc": "creator of a particular TV program",
+        "inver_rel_desc": "TV programs created by a particular individual"
+    },
+    {
+        "relation": "place of burial deceased person people ",
+        "ori_relation": "people deceased_person place_of_burial",
+        "rel_inverse": "place_of_burial deceased_person people",
+        "rel_desc": "burial place of a particular deceased person",
+        "inver_rel_desc": "individuals buried in a particular cemetery or burial si"
+    },
+    {
+        "relation": "film regional debut venue film regional release date release date s film ",
+        "ori_relation": "film film release_date_s. film film_regional_release_date film_regional_debut_venue",
+        "rel_inverse": "film_regional_debut_venue film_regional_release_date film release_date_s. film film",
+        "rel_desc": "venue or location where a particular film had its regional debu",
+        "inver_rel_desc": "films that had their regional debut at a particular venue or location"
+    },
+    {
+        "relation": "position sports team roster sports current roster hockey team ice hockey ",
+        "ori_relation": "ice_hockey hockey_team current_roster. sports sports_team_roster position",
+        "rel_inverse": "position sports_team_roster sports current_roster. hockey_team ice_hockey",
+        "rel_desc": "position that is part of a particular ice hockey team's current roster",
+        "inver_rel_desc": "ice hockey teams that have players in a particular position on their current roster"
+    },
+    {
+        "relation": "first level division of administrative division location ",
+        "ori_relation": "location administrative_division first_level_division_of",
+        "rel_inverse": "first_level_division_of administrative_division location",
+        "rel_desc": "first-level administrative division within a particular country or region",
+        "inver_rel_desc": "country or region to which a particular first-level administrative division belongs"
+    },
+    {
+        "relation": "adjustment currency adjusted money value measurement unit gdp real statistical region location ",
+        "ori_relation": "location statistical_region gdp_real. measurement_unit adjusted_money_value adjustment_currency",
+        "rel_inverse": "adjustment_currency adjusted_money_value measurement_unit gdp_real. statistical_region location",
+        "rel_desc": "The currency used by the country is;",
+        "inver_rel_desc": "countries or regions whose GDP values have been adjusted using a particular currency"
+    },
+    {
+        "relation": "organization relationship child organization ",
+        "ori_relation": "organization organization child. organization organization_relationship child",
+        "rel_inverse": "child organization_relationship organization child. organization organization",
+        "rel_desc": "parent company and its subsidiary or child organization",
+        "inver_rel_desc": "a subsidiary or child organization and its parent company."
+    },
+    {
+        "relation": "currency dated money value measurement unit assets business operation business ",
+        "ori_relation": "business business_operation assets. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit assets. business_operation business",
+        "rel_desc": "currency used to measure the financial assets or value of a specific business operation or institution",
+        "inver_rel_desc": "institutions or business operations whose financial assets or values are measured in a particular currency"
+    },
+    {
+        "relation": "type of appearance personal film appearance films person or entity appearing in film film ",
+        "ori_relation": "film person_or_entity_appearing_in_film films. film personal_film_appearance type_of_appearance",
+        "rel_inverse": "type_of_appearance personal_film_appearance film films. person_or_entity_appearing_in_film film",
+        "rel_desc": "ype of appearance a person made in a film",
+        "inver_rel_desc": "people who made a specific type of appearance in a film"
+    },
+    {
+        "relation": "instance of recurring event event time ",
+        "ori_relation": "time event instance_of_recurring_event",
+        "rel_inverse": "instance_of_recurring_event event time",
+        "rel_desc": "pecific instance or edition of a recurring event and the event it belongs to",
+        "inver_rel_desc": "recurring event and its specific instances or editions"
+    },
+    {
+        "relation": "person tv regular personal appearance tv regular personal appearances non character role tv ",
+        "ori_relation": "tv non_character_role tv_regular_personal_appearances. tv tv_regular_personal_appearance person",
+        "rel_inverse": "person tv_regular_personal_appearance tv tv_regular_personal_appearances. non_character_role tv",
+        "rel_desc": "role in which a person regularly appeared on television in a non-character, personal capacity",
+        "inver_rel_desc": "individuals who regularly appeared on television in a non-character, personal capacity, and the role they held"
+    },
+    {
+        "relation": "special performance type performance actor film ",
+        "ori_relation": "film actor film. film performance special_performance_type",
+        "rel_inverse": "special_performance_type performance film film. actor film",
+        "rel_desc": "ype of special performance an actor made in a film",
+        "inver_rel_desc": "actors who made a particular type of special performance in a film"
+    },
+    {
+        "relation": "currency dated money value measurement unit operating income business operation business ",
+        "ori_relation": "business business_operation operating_income. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit operating_income. business_operation business",
+        "rel_desc": "currency used to measure the operating income of a specific business or institution",
+        "inver_rel_desc": "businesses or institutions whose operating income is measured in a particular currency"
+    },
+    {
+        "relation": "languages spoken ethnicity people ",
+        "ori_relation": "people ethnicity languages_spoken",
+        "rel_inverse": "languages_spoken ethnicity people",
+        "rel_desc": "language commonly spoken by a particular ethnic group",
+        "inver_rel_desc": "nic groups that commonly speak a particular languag"
+    },
+    {
+        "relation": "celebrities impersonated celebrity impressionist americancomedy base ",
+        "ori_relation": "base americancomedy celebrity_impressionist celebrities_impersonated",
+        "rel_inverse": "celebrities_impersonated celebrity_impressionist americancomedy base",
+        "rel_desc": "celebrities who were impersonated by a specific impression",
+        "inver_rel_desc": "impressionist who impersonated a specific celebrity"
+    },
+    {
+        "relation": "symptom of symptom medicine ",
+        "ori_relation": "medicine symptom symptom_of",
+        "rel_inverse": "symptom_of symptom medicine",
+        "rel_desc": "ymptom associated with a specific medical condition",
+        "inver_rel_desc": "medical condition that is associated with a specific symptom"
+    },
+    {
+        "relation": "fraternities and sororities university education ",
+        "ori_relation": "education university fraternities_and_sororities",
+        "rel_inverse": "fraternities_and_sororities university education",
+        "rel_desc": "fraternity or sorority associated with a specific university",
+        "inver_rel_desc": "universities where a specific fraternity or sorority has a chapter or presenc"
+    },
+    {
+        "relation": "exported to imports and exports places exported to statistical region location ",
+        "ori_relation": "location statistical_region places_exported_to. location imports_and_exports exported_to",
+        "rel_inverse": "exported_to imports_and_exports location places_exported_to. statistical_region location",
+        "rel_desc": "country or region to which another country exports good",
+        "inver_rel_desc": "country that exports goods to a specific country or region"
+    },
+    {
+        "relation": "currency dated money value measurement unit gdp nominal statistical region location ",
+        "ori_relation": "location statistical_region gdp_nominal. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit gdp_nominal. statistical_region location",
+        "rel_desc": "currency used to measure the nominal GDP of a specific country or region",
+        "inver_rel_desc": "countries or regions whose nominal GDP is measured in a particular currency"
+    },
+    {
+        "relation": "mode of transportation transportation how to get here travel destination travel ",
+        "ori_relation": "travel travel_destination how_to_get_here. travel transportation mode_of_transportation",
+        "rel_inverse": "mode_of_transportation transportation travel how_to_get_here. travel_destination travel",
+        "rel_desc": "mode of transportation used to reach a specific travel destination",
+        "inver_rel_desc": "ravel destinations that can be reached using a specific mode of transportation"
+    },
+    {
+        "relation": "official language country location ",
+        "ori_relation": "location country official_language",
+        "rel_inverse": "official_language country location",
+        "rel_desc": "official language of a specific country",
+        "inver_rel_desc": "countries where a specific language is the official languag"
+    },
+    {
+        "relation": "partially contains location ",
+        "ori_relation": "location location partially_contains",
+        "rel_inverse": "partially_contains location location",
+        "rel_desc": "geographic feature that is partially located within a specific region",
+        "inver_rel_desc": "regions where a specific geographic feature is partially located"
+    },
+    {
+        "relation": "film art direction by film ",
+        "ori_relation": "film film film_art_direction_by",
+        "rel_inverse": "film_art_direction_by film film",
+        "rel_desc": "rt director responsible for a specific film's art direction",
+        "inver_rel_desc": "films for which a specific art director was responsible for the art direction"
+    },
+    {
+        "relation": "location of ceremony marriage spouse s person people ",
+        "ori_relation": "people person spouse_s. people marriage location_of_ceremony",
+        "rel_inverse": "location_of_ceremony marriage people spouse_s. person people",
+        "rel_desc": "location where a specific person's marriage ceremony took plac",
+        "inver_rel_desc": "people who had their marriage ceremonies at a specific location"
+    },
+    {
+        "relation": "currency dated money value measurement unit international tuition university education ",
+        "ori_relation": "education university international_tuition. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit international_tuition. university education",
+        "rel_desc": "currency used for international tuition fees at a specific university",
+        "inver_rel_desc": "universities that charge international tuition fees in a specific currency"
+    },
+    {
+        "relation": "organizations founded organization founder organization ",
+        "ori_relation": "organization organization_founder organizations_founded",
+        "rel_inverse": "organizations_founded organization_founder organization",
+        "rel_desc": "organization that was founded by a specific person",
+        "inver_rel_desc": "person who founded a specific organization"
+    },
+    {
+        "relation": "actor dubbing performance dubbing performances film ",
+        "ori_relation": "film film dubbing_performances. film dubbing_performance actor",
+        "rel_inverse": "actor dubbing_performance film dubbing_performances. film film",
+        "rel_desc": "ctor who provided the dubbing performance for a specific film",
+        "inver_rel_desc": "films for which a specific actor provided the dubbing performanc"
+    },
+    {
+        "relation": "split to gardening hint dataworld ",
+        "ori_relation": "dataworld gardening_hint split_to",
+        "rel_inverse": "split_to gardening_hint dataworld",
+        "rel_desc": "broader concept or entity that is split into or associated with a more specific aspect or sub",
+        "inver_rel_desc": "a specific aspect or subset and the broader concept or entity from which it is derived or associated"
+    },
+    {
+        "relation": "risk factors disease medicine ",
+        "ori_relation": "medicine disease risk_factors",
+        "rel_inverse": "risk_factors disease medicine",
+        "rel_desc": "risk factor associated with a specific disea",
+        "inver_rel_desc": "diseases that are associated with a specific risk factor"
+    },
+    {
+        "relation": "prequel film ",
+        "ori_relation": "film film prequel",
+        "rel_inverse": "prequel film film",
+        "rel_desc": "rlier film in a series that is a prequel to a later film",
+        "inver_rel_desc": "later film in a series that has a specific earlier film as its prequel"
+    },
+    {
+        "relation": "seasonal months produce availability localfood base produce available seasonal month localfood base ",
+        "ori_relation": "base localfood seasonal_month produce_available. base localfood produce_availability seasonal_months",
+        "rel_inverse": "seasonal_months produce_availability localfood base produce_available. seasonal_month localfood base",
+        "rel_desc": "vailability of produce across different months, indicating that produce available in one month is also available in another specific mon",
+        "inver_rel_desc": "other month in which produce availability coincides with the given mon"
+    },
+    {
+        "relation": "language dubbing performance dubbing performances actor film ",
+        "ori_relation": "film actor dubbing_performances. film dubbing_performance language",
+        "rel_inverse": "language dubbing_performance film dubbing_performances. actor film",
+        "rel_desc": "language in which a specific actor provided a dubbing performance for film",
+        "inver_rel_desc": "actors who have provided dubbing performances in a specific language for films"
+    },
+    {
+        "relation": "artist content broadcast ",
+        "ori_relation": "broadcast content artist",
+        "rel_inverse": "artist content broadcast",
+        "rel_desc": "media outlet that broadcasts content from a specific ar",
+        "inver_rel_desc": "artist whose content is broadcasted by a specific media outl"
+    },
+    {
+        "relation": "currency dated money value measurement unit gni per capita in ppp dollars statistical region location ",
+        "ori_relation": "location statistical_region gni_per_capita_in_ppp_dollars. measurement_unit dated_money_value currency",
+        "rel_inverse": "currency dated_money_value measurement_unit gni_per_capita_in_ppp_dollars. statistical_region location",
+        "rel_desc": "currency used to measure the GNI per capita in PPP dollars for a specific country or region",
+        "inver_rel_desc": "countries or regions whose GNI per capita in PPP dollars is measured using a specific currency"
+    },
+    {
+        "relation": "family instrument music ",
+        "ori_relation": "music instrument family",
+        "rel_inverse": "family instrument music",
+        "rel_desc": "family or category of instruments to which a specific instrument belong",
+        "inver_rel_desc": "instruments that belong to a specific family or category of musical instruments"
+    },
+    {
+        "relation": "jurisdiction of office government position held government positions held politician government ",
+        "ori_relation": "government politician government_positions_held. government government_position_held jurisdiction_of_office",
+        "rel_inverse": "jurisdiction_of_office government_position_held government government_positions_held. politician government",
+        "rel_desc": "country or political entity where a specific politician held a government position",
+        "inver_rel_desc": "politicians who held government positions in a specific country or political entity"
+    }
+]
